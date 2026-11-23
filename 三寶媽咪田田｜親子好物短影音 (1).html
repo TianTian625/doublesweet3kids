@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>三寶媽咪田田｜親子好物短影音</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#faf6f0;--card:#fffdf9;--text:#3b322d;--muted:#9a8a80;--ac:#b9806a;--soft:#f0e5d8;--line:#e8dccf;--blob:#fff;--c1:#ecd8c8;--c2:#dbe3d0;--c3:#f4e4b8;--c4:#ead0cf;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1f1a18;--card:#292321;--text:#f3e9e1;--muted:#b3a299;--ac:#d9a08a;--soft:#352c28;--line:#403632;--blob:#4a3f3a;--c1:#5a4036;--c2:#3d4a3b;--c3:#5a4d2c;--c4:#5a3a3c;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1f1a18;--card:#292321;--text:#f3e9e1;--muted:#b3a299;--ac:#d9a08a;--soft:#352c28;--line:#403632;--blob:#4a3f3a;--c1:#5a4036;--c2:#3d4a3b;--c3:#5a4d2c;--c4:#5a3a3c;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;font-weight:300;line-height:1.85;overflow-x:hidden;letter-spacing:.02em}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--bg)}
+a{color:inherit}
+.wrap{max-width:960px;margin:0 auto;padding:0 22px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:6px;padding-top:12px;padding-bottom:12px}
+.logo{font-weight:500;text-decoration:none;color:var(--ac);white-space:nowrap}
+.links{display:flex;gap:2px;overflow-x:auto}
+.links a{padding:4px 9px;text-decoration:none;font-size:13px;white-space:nowrap;color:var(--muted);border-bottom:1px solid transparent;transition:.2s}
+.links a.on,.links a:hover{color:var(--text);border-bottom-color:var(--ac)}
+.page{display:none}.page.on{display:block}
+.rv{opacity:0;transform:translateY(16px);transition:opacity .8s,transform .8s}.rv.v{opacity:1;transform:none}
+section{padding:56px 0}
+.eb{font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--ac);margin:0 0 8px}
+h1{font-size:clamp(28px,6.5vw,44px);line-height:1.5;margin:10px 0;font-weight:300;letter-spacing:.06em}
+h2{font-size:24px;font-weight:400;margin:0 0 6px;letter-spacing:.08em}
+.sub{color:var(--muted);margin:6px 0 28px;font-size:15px}
+.hero{padding:76px 0 56px;text-align:center;position:relative}
+.fw{color:var(--ac)}.fw svg{display:block;margin:0 auto}
+.spin{animation:spin 40s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
+.sway{position:absolute;opacity:.5;animation:sway 6s ease-in-out infinite}@keyframes sway{50%{transform:translateY(-10px) rotate(14deg)}}
+.btn{display:inline-block;background:var(--ac);color:var(--bg);padding:11px 28px;border-radius:99px;text-decoration:none;margin:6px 4px 0;font-weight:400;font-size:15px;border:1px solid var(--ac);transition:.25s}
+.btn.o{background:transparent;color:var(--ac)}.btn:hover{opacity:.8;transform:translateY(-2px)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px;transition:.3s}
+.card:hover{border-color:var(--ac);transform:translateY(-3px)}
+.card h3{margin:0 0 8px;font-size:17px;font-weight:500;letter-spacing:.06em}
+.card p{margin:6px 0;font-size:15px}
+.g{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.g2{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.about{background:var(--soft);border-radius:18px;padding:32px;line-height:2}.about p{margin:10px 0}
+.num{display:block;font-size:13px;color:var(--ac);letter-spacing:.2em;margin-bottom:10px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+.chip{border:1px solid var(--line);background:transparent;color:var(--muted);padding:5px 15px;border-radius:99px;font:inherit;font-size:14px;cursor:pointer;transition:.2s}
+.chip.on,.chip:hover{border-color:var(--ac);color:var(--ac)}
+.vid{display:block;text-decoration:none;padding:0;overflow:hidden}
+.th{height:130px;background:var(--soft);display:flex;align-items:center;justify-content:center;position:relative;color:var(--ac);font-size:34px;font-weight:200;letter-spacing:.1em}
+.th i{position:absolute;right:12px;bottom:12px;width:34px;height:34px;border-radius:50%;border:1px solid var(--ac);display:flex;align-items:center;justify-content:center;font-style:normal;font-size:11px;transition:.25s}
+.vid:hover .th i{background:var(--ac);color:var(--bg)}
+.vid .tx{padding:14px 18px 18px}.vid small{color:var(--ac);font-size:12px;letter-spacing:.14em}.vid b{display:block;font-size:17px;font-weight:400}
+.hide{display:none!important}
+.price{text-align:center}.price b{display:block;font-size:34px;font-weight:300;color:var(--ac);margin:4px 0}
+ul.l{margin:6px 0;padding-left:18px;font-size:15px}ul.l li{margin:3px 0}
+.dark{background:var(--text);color:var(--bg);border-color:var(--text)}.dark h3{color:var(--soft)}.dark:hover{border-color:var(--ac)}
+.row{display:flex;justify-content:space-between;border-bottom:1px solid var(--line);padding:9px 0}.row b{color:var(--ac);font-weight:400}
+.note{color:var(--muted);font-size:13px}
+.bg{display:grid;gap:26px 12px;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));text-align:center}
+.lg{width:84px;height:84px;margin:0 auto 8px;border-radius:50%;border:1px solid var(--line);background:#fff;display:flex;align-items:center;justify-content:center;overflow:hidden;padding:12px;transition:.3s}
+.lg img{max-width:100%;max-height:100%;object-fit:contain}
+.lg.e{background:var(--soft);color:var(--ac);font-size:24px;font-weight:200;padding:0}
+.bi:hover .lg{border-color:var(--ac);transform:translateY(-3px)}
+.bi span{font-size:13px;display:block;line-height:1.4}
+.shot{aspect-ratio:3/4;border:1px dashed var(--line);border-radius:14px;background:var(--soft);display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:14px;overflow:hidden}
+.shot img{width:100%;height:100%;object-fit:contain}
+footer{margin-top:20px;background:var(--soft);padding:48px 0 52px;text-align:center}
+footer a.ct{display:block;margin:6px 0;text-decoration:none;border-bottom:1px solid transparent;width:fit-content;margin-left:auto;margin-right:auto;transition:.2s}
+footer a.ct:hover{border-bottom-color:var(--ac);color:var(--ac)}
+.wipe{position:fixed;inset:0;z-index:60;background:var(--soft);opacity:0;visibility:hidden;pointer-events:none;display:grid;place-items:center;color:var(--ac);transition:opacity .35s,visibility .35s}
+.wipe.in{opacity:1;visibility:visible}
+.dr,.dw{stroke-dasharray:1;stroke-dashoffset:1}
+.dr{animation:dr 2.6s ease forwards}
+.wipe.in .dw{animation:dr 1.2s ease forwards}
+@keyframes dr{to{stroke-dashoffset:0}}
+.wipe .bl{opacity:0}.wipe.in .bl{animation:fi 1s .1s forwards}@keyframes fi{to{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}.dr,.dw{stroke-dashoffset:0}.wipe .bl{opacity:1}}
+.wipe{color:var(--text)}
+.tt{display:inline-block;position:relative;z-index:0;padding:0 8px;background:linear-gradient(transparent 56%,var(--a) 56% 92%,transparent 92%)}
+.tt::after{content:"";position:absolute;right:-16px;top:-2px;width:13px;height:13px;border-radius:4px;background:var(--b);z-index:-1}
+.hl{background:linear-gradient(transparent 58%,var(--c1) 58% 94%,transparent 94%);padding:0 4px}
+.blk{position:absolute;z-index:0;animation:bob 7s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-9px)}}
+.hero .wrap{position:relative;z-index:1}
+.hrow{display:flex;align-items:center;justify-content:center;gap:48px;text-align:left}.htx{flex:1;max-width:520px}.arch{flex:none;width:230px;height:300px;border-radius:115px 115px 18px 18px;background:var(--soft);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:13px;letter-spacing:.2em;overflow:hidden}.arch img{width:100%;height:100%;object-fit:cover}
+@media (max-width:700px){.hrow{flex-direction:column;gap:28px;text-align:center}.arch{order:-1;width:200px;height:260px;border-radius:100px 100px 14px 14px}.htx .sub{margin-left:auto!important;margin-right:auto!important}}
+.hf{color:var(--text)}.hf svg,.lgo svg{display:block;margin:0 auto}
+.lgo{display:inline-flex;align-items:center;gap:8px}
+.num{display:inline-block;padding:1px 12px;border-radius:99px;background:var(--c1);color:var(--text)}
+.g>.card:nth-child(4n+2) .num{background:var(--c2)}.g>.card:nth-child(4n+3) .num{background:var(--c3)}.g>.card:nth-child(4n+4) .num{background:var(--c4)}
+.eb::before{content:"";display:inline-block;width:9px;height:9px;border-radius:2px;background:var(--c4);margin-right:8px}
+.vg{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(210px,1fr))}
+.vid .th{height:auto;aspect-ratio:1/1}.vid .th img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.vid .tx{padding:10px 14px 14px}.vid b{font-size:15px}.vid .vd{font-size:13px;margin:6px 0 0;line-height:1.6}.vid .vs{font-size:12px;color:var(--muted);margin:4px 0 0;line-height:1.5}
+dl.d{margin:10px 0 0;font-size:14.5px}dl.d div{display:flex;gap:10px;padding:7px 0;border-top:1px solid var(--line)}dl.d dt{flex:none;width:4.6em;color:var(--ac)}dl.d dd{margin:0}
+@media (max-width:560px){nav .wrap{flex-direction:column;gap:4px}}
+</style>
+</head>
+<body>
+<div class="wipe" id="wipe"></div>
+<nav><div class="wrap"><a class="logo lgo" href="#home" data-go="home"><span id="navFl" style="color:var(--text)"></span>三寶媽咪田田</a>
+<div class="links"><a href="#home" data-go="home">首頁</a><a href="#collab" data-go="collab">合作方式</a><a href="#pricing" data-go="pricing">報價與流程</a><a href="#brands" data-go="brands">合作廠商及回饋</a></div></div></nav>
+
+<main>
+<div class="page on" id="p-home">
+<div class="hero"><i class="blk" style="left:6%;top:40px;width:92px;height:92px;background:var(--c2);border-radius:44% 56% 52% 48%"></i><i class="blk" style="right:7%;top:130px;width:62px;height:62px;background:var(--c4);border-radius:50%;animation-delay:2s"></i><i class="blk" style="left:15%;bottom:24px;width:52px;height:52px;background:var(--c3);border-radius:14px;animation-delay:4s"></i><div class="wrap">
+<div class="hf" id="heroFl" style="height:170px"></div>
+<div class="hrow"><div class="htx"><p class="eb" style="margin-top:22px">Mom Creator · Reels</p>
+<h1><span class="hl">田田</span>｜個人創作者 × 短影音剪輯師</h1>
+<p class="sub" style="max-width:480px;margin:14px 0 22px">親子生活創作者，也是一位熱愛影像的短影音剪輯師。從生活體驗、商品開箱到影片企劃與剪輯，希望用自然、有溫度的影像，傳遞每個品牌與故事的特色</p>
+<a class="btn" href="#works" id="toWorks">影片案例</a><a class="btn o" href="#collab" data-go="collab">合作方式</a></div><div class="arch"><span>照片區塊</span></div></div>
+</div></div>
+
+<section><div class="wrap rv"><p class="eb">About</p><h2>關於我</h2><div class="about" style="margin-top:20px">
+<p>哈囉~ 我是三寶媽咪田田，目前家裡有 4 歲、3 歲和 1 歲的三個小寶貝，平時喜歡分享育兒日常、生活點滴，以及各種實用的親子好物。</p>
+<p>另外我也很喜歡剪輯影片，覺得可以從中獲得成就感，讓頁面看起來漂漂亮亮的，而且自己比較講究一點，希望每支影片都可以呈現最好的樣子 ♡</p></div></div></section>
+
+<section style="padding-top:0"><div class="wrap rv"><p class="eb">Why me</p><h2>為什麼選擇三寶媽咪田田</h2><div class="g" style="margin-top:22px">
+<div class="card"><span class="num">01</span><h3>真實家長視角</h3><p>三種年齡層孩子的日常使用情境，呈現產品真正好用的地方。</p></div>
+<div class="card"><span class="num">02</span><h3>企劃・拍攝・剪輯一條龍</h3><p>從發想到成片都自己完成，溝通順暢、效率高。</p></div>
+<div class="card"><span class="num">03</span><h3>溝通清楚、報價透明</h3><p>開始製作前先確認內容與報價，不會完成後才臨時加價。</p></div>
+</div></div></section>
+
+<section id="works" style="padding-top:0"><div class="wrap rv"><p class="eb">Portfolio</p><h2>影片案例</h2><p class="sub">點開卡片，到 Instagram 觀看完整影片</p>
+<div class="chips" id="chips"></div><div class="vg" id="vids"></div></div></section>
+
+<section style="padding-top:0"><div class="wrap rv" style="text-align:center"><div class="about"><h2>想一起合作嗎？</h2><p class="sub" style="margin-bottom:16px">看看合作方式與報價，再私訊告訴我你的想法</p>
+<a class="btn" href="#collab" data-go="collab">合作方式</a><a class="btn o" href="#pricing" data-go="pricing">報價與流程</a></div></div></section>
+</div>
+
+<div class="page" id="p-collab">
+<section><div class="wrap rv"><p class="eb">Collaboration</p><h1>合作方式</h1><p class="sub">提供三種合作方式，依品牌需求與商品特性彈性選擇。<br>不確定哪一種適合？告訴我商品與預期用途，我會協助評估。</p>
+<div class="g">
+<div class="card"><span class="num">01</span><h3>商品互惠合作</h3><p>品牌提供商品，依雙方約定完成體驗及內容。</p></div>
+<div class="card"><span class="num">02</span><h3>有酬品牌合作</h3><p>在商品互惠的基礎上，若需要廣告授權、多平台上架或其他延伸用途，將依拍攝、製作、發布及合作需求另外協議報酬。</p></div>
+<div class="card"><span class="num">03</span><h3>延伸授權合作</h3><p>廣告投放、多平台使用、素材二次利用等，另行議定授權範圍與費用。</p></div>
+</div>
+<div style="text-align:center;margin-top:32px"><a class="btn" href="#contact" id="toContact">私訊洽詢</a><a class="btn o" href="#pricing" data-go="pricing">報價與流程</a></div>
+</div></section></div>
+
+<div class="page" id="p-pricing">
+<section><div class="wrap rv"><p class="eb">Pricing & Process</p><h1>報價與合作流程</h1>
+<h2 style="margin-top:28px">基礎剪輯報價</h2><p class="sub">適合 Reels／Instagram／Facebook／TikTok／YouTube Shorts 等直式短影音</p>
+<div class="g"><div class="card price">30 秒內<b>$700</b>／支</div><div class="card price">31～60 秒<b>$900</b>／支</div><div class="card price">61～90 秒<b>$1,200</b>／支</div></div></div></section>
+
+<section style="padding-top:0"><div class="wrap rv"><h2>服務內容與另外報價</h2><div class="g2" style="margin-top:20px">
+<div class="card"><h3>基礎剪輯包含</h3><ul class="l"><li>素材整理與挑選</li><li>影片順剪與節奏調整</li><li>基本字幕／重點字卡</li><li>BGM 搭配、基本音效</li><li>簡單轉場</li><li>影片比例 9:16</li><li>輸出適合社群發布的影片檔</li><li>免費修改 1 次</li></ul></div>
+<div class="card dark"><h3>另外報價</h3><ul class="l"><li>大量字幕／逐字字幕</li><li>大量動態字卡</li><li>複雜動畫／特效</li><li>綠幕去背、人物追蹤</li><li>配音／口白處理</li><li>腳本撰寫、影片企劃</li><li>找素材／圖片、重新拍攝或補拍</li></ul><p style="color:var(--soft)">開始製作前先確認報價，不會完成後才臨時加價</p></div></div></div></section>
+
+<section style="padding-top:0"><div class="wrap rv"><h2>修改規則與急件</h2><div class="g2" style="margin-top:20px">
+<div class="card"><h3>修改規則</h3><p>每支含 <b style="font-weight:500">1 次免費修改</b>，請統一整理一輪需求（錯字、刪段、換畫面、調字體或音樂）。</p><p>大幅改變方向（整支重剪、換風格、重選素材）視為重新製作，另行報價。</p><p style="font-size:19px;color:var(--ac)">第 2 次起 $100／次起</p></div>
+<div class="card"><h3>急件加價</h3><div class="row">3 個工作天<b>+20%</b></div><div class="row">2 個工作天<b>+40%</b></div><div class="row">1 個工作天<b>+60%</b></div><p class="note">依剪輯秒數額外增加，請於委託時先告知</p></div></div></div></section>
+
+<section style="padding-top:0"><div class="wrap rv"><h2>交件、素材與付款</h2><div class="g" style="margin-top:20px">
+<div class="card"><h3>交件時間</h3><p><b style="font-weight:500">一般案件 3～5 個工作天</b></p><p>收到「完整素材＋剪輯需求」後開始計算，依影片數量、素材長度與複雜度調整。</p></div>
+<div class="card"><h3>素材提供</h3><ul class="l"><li>原始影片素材</li><li>保留／刪除片段</li><li>影片主題與風格</li><li>字幕文字／品牌資訊</li><li>指定音樂、參考影片</li></ul></div>
+<div class="card"><h3>付款方式</h3><p>首次合作：確認後付 <b style="font-weight:500">50% 訂金</b>，完成初版後付尾款。</p><p>長期合作或小額單支可另外討論；確認完成後提供最終影片檔。</p></div></div></div></section>
+
+<section style="padding-top:0"><div class="wrap rv"><h2>合作注意事項</h2><div class="g" style="margin-top:20px">
+<div class="card"><span class="num">01</span><h3>素材授權</h3><p>素材須具合法使用權，侵權問題由素材提供方負責。</p></div>
+<div class="card"><span class="num">02</span><h3>剪輯方向</h3><p>開工前先確認方向，大幅更改可能產生額外費用。</p></div>
+<div class="card"><span class="num">03</span><h3>交付內容</h3><p>僅提供完成影片檔，不含工程檔／專案檔。</p></div>
+<div class="card"><span class="num">04</span><h3>作品展示</h3><p>可作為作品集展示；若不得公開，請委託前告知。</p></div>
+<div class="card"><span class="num">05</span><h3>廣告與商業使用</h3><p>一般社群發布已含；長期廣告、品牌授權、二次剪輯另議。</p></div>
+<div class="card dark" style="display:flex;align-items:center"><h3 style="margin:0">特殊需求，歡迎於委託前提出</h3></div></div></div></section>
+
+<section style="padding-top:0"><div class="wrap rv"><h2>合作流程</h2><div class="g" style="margin-top:20px">
+<div class="card"><span class="num">01</span><h3>私訊洽詢</h3><p>提供影片數量、長度、素材狀況及需求</p></div>
+<div class="card"><span class="num">02</span><h3>確認報價</h3><p>確認剪輯內容、交件時間、修改次數及費用</p></div>
+<div class="card"><span class="num">03</span><h3>提供素材</h3><p>確認素材完整後開始排單</p></div>
+<div class="card"><span class="num">04</span><h3>開始剪輯</h3><p>依雙方確認的方向製作</p></div>
+<div class="card"><span class="num">05</span><h3>初版確認</h3><p>提供影片預覽</p></div>
+<div class="card"><span class="num">06</span><h3>統一修改</h3><p>提供一次統一修改</p></div>
+<div class="card"><span class="num">07</span><h3>完成交件</h3><p>確認完成後提供最終影片檔案</p></div>
+<div class="card dark" style="display:flex;align-items:center"><h3 style="margin:0">歡迎私訊洽詢</h3></div></div></div></section>
+</div>
+
+<div class="page" id="p-brands">
+<section><div class="wrap rv"><p class="eb">Partners</p><h1>合作過的品牌</h1><p class="sub">感謝每一個信任與合作的品牌</p><div class="bg" id="brands"></div></div></section>
+<section style="padding-top:0"><div class="wrap rv"><p class="eb">Feedback</p><h2>業者回應</h2><p class="sub">合作後品牌方的真實回饋</p>
+<div class="g" id="shots"></div></div></section>
+</div>
+</main>
+
+<footer id="contact"><div class="wrap"><div class="hf" id="ftFl" style="height:84px"></div><p class="eb" style="margin-top:14px">Contact</p><h2>聯絡三寶媽咪田田</h2><p class="sub">歡迎私訊洽詢細節</p>
+<a class="ct" href="mailto:cioujin8505@gmail.com">Email｜cioujin8505@gmail.com</a>
+<a class="ct" href="https://line.me/ti/p/~lovestar0826" target="_blank" rel="noopener">LINE｜lovestar0826</a>
+<a class="ct" href="https://www.instagram.com/doublesweet_0625" target="_blank" rel="noopener">Instagram｜doublesweet_0625</a>
+<p class="note" style="margin-top:24px">© 三寶媽咪田田</p></div></footer>
+
+<script>
+var P=["M52 58 C46 52 36 50 30 44 C25 39 26 30 31 25 C36 20 44 17 50 19 C57 21 59 29 57 37 C56 45 54 52 52 58Z","M54 57 C53 46 55 32 61 23 C65 17 72 13 78 14 C82 15 82 21 79 28 C75 38 69 47 63 53 C60 56 57 58 54 57Z","M57 53 C58 43 61 34 67 27","M52 58 C42 57 31 60 25 67 C24 70 27 71 31 71 C40 72 49 67 54 61","M51 60 C46 67 38 73 30 76 C28 77 29 79 32 78 C42 77 51 71 55 62","M55 58 C62 60 70 56 76 48 C75 58 66 68 55 66","M53 62 C59 80 67 93 64 111 C61 130 49 142 51 158","M55 61 C62 80 70 94 67 112 C64 132 53 143 55 158"],BL="M60 28 C75 27 87 40 86 55 C85 70 72 80 56 78 C41 76 33 63 36 49 C39 36 49 29 60 28Z";
+function FL(h,crop,m,sw){var vb=crop?[14,8,72,80]:[12,8,76,154];var ps=P.map(function(d,i){return '<path d="'+d+'" pathLength="1" class="'+m+'" style="animation-delay:'+(i*.12)+'s"/>'}).join("");
+return '<svg width="'+Math.round(h*vb[2]/vb[3])+'" height="'+h+'" viewBox="'+vb.join(" ")+'" fill="none" stroke="currentColor" stroke-width="'+sw+'" stroke-linecap="round" stroke-linejoin="round"><path class="bl" d="'+BL+'" fill="var(--blob)" stroke="none"/>'+ps+'</svg>'}
+document.getElementById("heroFl").innerHTML=FL(170,0,"dr",.8);
+document.getElementById("navFl").innerHTML=FL(30,1,"",2.4);
+document.getElementById("ftFl").innerHTML=FL(84,0,"",1.3);
+document.getElementById("wipe").innerHTML=FL(300,0,"dw",.55);
+var W=[["reel/DYmSaH8yyFL","親子好物","布布童鞋"],["reel/DWGwE8cj3R1","親子好物","Kidmory 手推車"],["reel/DQF9EqYEosl","兒童用品","Zoodi"],["reel/DQEkmWqEo7L","兒童用品","Kodmory 雙飲水壺"],["reel/DO8BEmbEXOc","兒童用品","JIIC 姓名貼"],["reel/DS4F93REk7Y","兒童用品","Kidmory"],["reel/DQQtRgSEs0v","兒童玩具","Bellebaby"],["reel/DcpZOlIgt3r","生活好物","C&amp;D"],["reel/DXyyi5-AakJ","生活好物","AT MAX"],["reel/DXopdqLApBs","生活好物","JET 小風扇"],["reel/Ddn8Wrlg2Mc","車用好物","Focus"],["reel/Ddxzwoaynwc","車用好物","Nitro"],["reel/Dedqqoqgfuo","探店","6吋盤"],["reel/Db45YHmgsb7","探店","福湯岩盤浴 × Mr.咖喱"],["reel/DEjDFeYS900","商品體驗","Derma 按摩浴油"],["p/DA0TbHMSdTi","商品體驗","鈞媽肉鬆"]];
+var cats=["全部"];W.forEach(function(w){if(cats.indexOf(w[1])<0)cats.push(w[1])});
+document.getElementById("chips").innerHTML=cats.map(function(c,i){return '<button class="chip'+(i?'':' on')+'" data-c="'+c+'">'+c+'</button>'}).join("");
+var TH={};
+document.getElementById("vids").innerHTML=W.map(function(w,i){var k=w[0].split("/")[1];return '<a class="card vid" data-c="'+w[1]+'" href="https://www.instagram.com/'+w[0]+'/" target="_blank" rel="noopener"><div class="th">'+(TH[k]?'<img src="'+TH[k]+'" alt="'+w[2]+'">':(i<9?"0":"")+(i+1))+'<i>▶</i></div><div class="tx"><small>'+w[1]+'</small><b>'+w[2]+'</b><p class="vd">'+(w[3]||'影片內容說明（待補）')+'</p><p class="vs">'+(w[4]||'服務內容｜影片長度（待補）')+'</p></div></a>'}).join("");
+document.getElementById("chips").onclick=function(ev){var c=ev.target.dataset.c;if(!c)return;document.querySelectorAll(".chip").forEach(function(b){b.classList.toggle("on",b===ev.target)});document.querySelectorAll(".vid").forEach(function(v){v.classList.toggle("hide",c!=="全部"&&v.dataset.c!==c)})};
+var B=["AT MAX","Bellebaby","BrilleBrille","C&amp;D","Focus","JIIC","Kidmory","Mr.38","Nac Nac","Nitro","Solide","Zip Go","Zoodi","6吋盤","山水Sansui","布布童鞋","伊頓","良爽","玩聚","茗窖茶莊","紅潤公事","琉宇醬選","福湯"];
+var L={};
+document.getElementById("brands").innerHTML=B.map(function(b){return '<div class="bi"><div class="lg'+(L[b]?'':' e')+'">'+(L[b]?'<img src="'+L[b]+'" alt="'+b+'">':b.charAt(0))+'</div><span>'+b+'</span></div>'}).join("");
+document.getElementById("shots").innerHTML=[1,2,3,4,5,6].map(function(i){return '<div><div class="shot">截圖 0'+i+' 待放置</div><p class="note" style="margin:8px 0 0">品牌名稱｜回應簡述</p></div>'}).join("");
+document.querySelectorAll("h1,h2").forEach(function(h,i){if(h.closest(".hero"))return;h.classList.add("tt");h.style.setProperty("--a","var(--c"+(i%4+1)+")");h.style.setProperty("--b","var(--c"+((i+1)%4+1)+")")});
+var cur="home",wp=document.getElementById("wipe"),busy=false,T={home:1,collab:1,pricing:1,brands:1};
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("v");io.unobserve(e.target)}})},{threshold:.06});
+document.querySelectorAll(".rv").forEach(function(n){io.observe(n)});
+function show(p){cur=p;document.querySelectorAll(".page").forEach(function(d){d.classList.toggle("on",d.id==="p-"+p)});document.querySelectorAll(".links a").forEach(function(a){a.classList.toggle("on",a.dataset.go===p)});window.scrollTo(0,0)}
+function go(p){if(busy)return;if(p===cur){window.scrollTo({top:0,behavior:"smooth"});return}busy=true;wp.classList.add("in");
+setTimeout(function(){show(p);wp.classList.remove("in");setTimeout(function(){busy=false},400)},1300)}
+document.addEventListener("click",function(ev){var a=ev.target.closest("[data-go]");if(a){ev.preventDefault();go(a.dataset.go);try{history.replaceState(null,"","#"+a.dataset.go)}catch(x){}}});
+document.getElementById("toWorks").onclick=function(ev){ev.preventDefault();document.getElementById("works").scrollIntoView({behavior:"smooth"})};
+document.getElementById("toContact").onclick=function(ev){ev.preventDefault();document.getElementById("contact").scrollIntoView({behavior:"smooth"})};
+var h=(location.hash||"").slice(1);show(T[h]?h:"home");
+window.addEventListener("hashchange",function(){var t=location.hash.slice(1);if(T[t])go(t)});
+</script>
+</body>
+</html>
